@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
-
+import socketio
 
 # Create a Socket.IO server
 sio = socketio.Server()
